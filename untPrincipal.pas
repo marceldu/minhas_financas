@@ -28,7 +28,12 @@ type
     Label2: TLabel;
     cbxAnoRef: TComboBox;
     lblPercConsumido: TLabel;
+    lbxLancamentos: TListBox;
+    Label3: TLabel;
+    procedure FormShow(Sender: TObject);
   private
+    procedure CarregarUltimosLancamentos;
+    procedure AddLancamento(pIdLanc: integer; const pTipoLanc, pDataLanc, pValorLanc: string);
     { Private declarations }
   public
     { Public declarations }
@@ -40,5 +45,44 @@ var
 implementation
 
 {$R *.fmx}
+
+uses Frame.Lancamento;
+
+procedure TfrmPrincipal.FormShow(Sender: TObject);
+begin
+  CarregarUltimosLancamentos;
+end;
+
+procedure TfrmPrincipal.CarregarUltimosLancamentos;
+begin
+  AddLancamento(1, 'Compras','16/07/2023','55,55');
+  AddLancamento(2, 'Mercado','16/07/2023','86,10');
+  AddLancamento(3, 'Combustivel','15/07/2023','22,00');
+  AddLancamento(4, 'Farmacia','14/07/2023','41,30');
+  AddLancamento(5, 'Outros','12/07/2023','7,30');
+end;
+
+procedure TfrmPrincipal.AddLancamento(pIdLanc: integer; const pTipoLanc, pDataLanc, pValorLanc: string);
+var
+  vItem: TListBoxItem;
+  vFrame: TFrameLancamento;
+begin
+  vItem := TListBoxItem.Create(lbxLancamentos);
+  vItem.Selectable := False;
+  vItem.Text := '';
+  vItem.Height := 70;
+  vItem.Tag := pIdLanc;
+
+  // Criar frame
+  vFrame := TFrameLancamento.Create(vItem);
+  vFrame.lblTipoLancamento.Text := pTipoLanc;
+  vFrame.lblDataLancamento.Text := pDataLanc;
+  vFrame.lblValorLancamento.Text := pValorLanc;
+  vFrame.CarregarImage(pTipoLanc);
+
+  vItem.AddObject(vFrame);
+
+  lbxLancamentos.AddObject(vItem);
+end;
 
 end.
