@@ -2,20 +2,20 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2023/07/16 10:16:07.000.903,=C:\Users\GIGI\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/16 10:16:35.000.377,C:\Users\GIGI\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Projetos\Minhas_Financas\Frontend\uLogin.fmx</Transaction>
-    <Transaction>2023/07/16 10:16:35.000.377,C:\Users\GIGI\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Projetos\Minhas_Financas\Frontend\uLogin.pas</Transaction>
-    <Transaction>2023/07/16 10:16:50.000.195,C:\Users\GIGI\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Projetos\Minhas_Financas\Frontend\MinhasFinancas.dproj</Transaction>
-    <Transaction>2023/07/16 10:52:06.000.146,C:\Projetos\Minhas_Financas\Frontend\untLogin.pas=C:\Projetos\Minhas_Financas\Frontend\uLogin.pas</Transaction>
-    <Transaction>2023/07/16 10:52:06.000.146,C:\Projetos\Minhas_Financas\Frontend\untLogin.fmx=C:\Projetos\Minhas_Financas\Frontend\uLogin.fmx</Transaction>
+    <Transaction>2023/07/16 10:16:35.000.377,C:\Projetos\Minhas_Financas\Frontend\uLogin.fmx=C:\Users\GIGI\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/07/16 10:16:35.000.377,C:\Projetos\Minhas_Financas\Frontend\uLogin.pas=C:\Users\GIGI\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/16 10:16:50.000.195,C:\Projetos\Minhas_Financas\Frontend\MinhasFinancas.dproj=C:\Users\GIGI\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/07/16 10:52:06.000.146,C:\Projetos\Minhas_Financas\Frontend\uLogin.pas=C:\Projetos\Minhas_Financas\Frontend\untLogin.pas</Transaction>
+    <Transaction>2023/07/16 10:52:06.000.146,C:\Projetos\Minhas_Financas\Frontend\uLogin.fmx=C:\Projetos\Minhas_Financas\Frontend\untLogin.fmx</Transaction>
     <Transaction>2023/07/16 12:15:17.000.454,=C:\Projetos\Minhas_Financas\Frontend\Unit1.pas</Transaction>
-    <Transaction>2023/07/16 12:16:13.000.398,C:\Projetos\Minhas_Financas\Frontend\untPrincipal.fmx=C:\Projetos\Minhas_Financas\Frontend\Unit1.fmx</Transaction>
-    <Transaction>2023/07/16 12:16:13.000.398,C:\Projetos\Minhas_Financas\Frontend\untPrincipal.pas=C:\Projetos\Minhas_Financas\Frontend\Unit1.pas</Transaction>
-    <Transaction>2023/07/16 18:24:58.556,=C:\Projetos\Minhas_Financas\Frontend\Unit1.pas</Transaction>
-    <Transaction>2023/07/16 18:28:10.777,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamentos.fmx=C:\Projetos\Minhas_Financas\Frontend\Unit1.fmx</Transaction>
-    <Transaction>2023/07/16 18:28:10.777,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamentos.pas=C:\Projetos\Minhas_Financas\Frontend\Unit1.pas</Transaction>
-    <Transaction>2023/07/16 18:28:48.315,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamento.pas=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamentos.pas</Transaction>
-    <Transaction>2023/07/16 18:28:48.315,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamento.fmx=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamentos.fmx</Transaction>
-    <Transaction>2023/07/16 19:01:41.204,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lancamento.fmx=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamento.fmx</Transaction>
-    <Transaction>2023/07/16 19:01:41.204,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lancamento.pas=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamento.pas</Transaction>
+    <Transaction>2023/07/16 12:16:13.000.398,C:\Projetos\Minhas_Financas\Frontend\Unit1.fmx=C:\Projetos\Minhas_Financas\Frontend\untPrincipal.fmx</Transaction>
+    <Transaction>2023/07/16 12:16:13.000.398,C:\Projetos\Minhas_Financas\Frontend\Unit1.pas=C:\Projetos\Minhas_Financas\Frontend\untPrincipal.pas</Transaction>
+    <Transaction>2023/07/16 18:24:58.000.556,=C:\Projetos\Minhas_Financas\Frontend\Unit1.pas</Transaction>
+    <Transaction>2023/07/16 18:28:10.000.777,C:\Projetos\Minhas_Financas\Frontend\Unit1.fmx=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamentos.fmx</Transaction>
+    <Transaction>2023/07/16 18:28:10.000.777,C:\Projetos\Minhas_Financas\Frontend\Unit1.pas=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamentos.pas</Transaction>
+    <Transaction>2023/07/16 18:28:48.000.315,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamentos.fmx=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamento.fmx</Transaction>
+    <Transaction>2023/07/16 18:28:48.000.315,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamentos.pas=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamento.pas</Transaction>
+    <Transaction>2023/07/16 19:01:41.000.204,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamento.pas=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lancamento.pas</Transaction>
+    <Transaction>2023/07/16 19:01:41.000.204,C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lançamento.fmx=C:\Projetos\Minhas_Financas\Frontend\Frames\Frame.Lancamento.fmx</Transaction>
   </Transactions>
 </BorlandProject>

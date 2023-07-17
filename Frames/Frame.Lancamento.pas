@@ -14,8 +14,16 @@ type
     lblDataLancamento: TLabel;
     Rectangle1: TRectangle;
     lblValorLancamento: TLabel;
-    imgTipoLancamento: TImage;
     ListaImagens: TImageList;
+    imgCombustivel: TImage;
+    Image1: TImage;
+    ImgCompras: TImage;
+    ImgMercado: TImage;
+    ImgFarmacia: TImage;
+    imgRestaurante: TImage;
+    ImgOutros: TImage;
+    Circle1: TCircle;
+    imgTipoLancamento: TImage;
   private
     { Private declarations }
   public
@@ -30,15 +38,23 @@ implementation
 procedure TFrameLancamento.CarregarImage(const pTipoLanc: string);
 var
   vSizeF: TSizeF;
+
+  vImageList: TCustomImageList;
+
+  vImage: TBitMap;
+
 begin
+  vSizeF.cx := 16;
+  vSizeF.cy := 16;
 
   case AnsiIndexStr(UpperCase(pTipoLanc), ['OUTROS','COMBUSTIVEL','MERCADO','COMPRAS','FARMACIA']) of
-    0 : imgTipoLancamento.Bitmap := ListaImagens.Bitmap(vSizeF, 0);
-    1 : imgTipoLancamento.Bitmap := ListaImagens.Bitmap(vSizeF, 1);
-    2 : imgTipoLancamento.Bitmap := ListaImagens.Bitmap(vSizeF, 2);
-    3 : imgTipoLancamento.Bitmap := ListaImagens.Bitmap(vSizeF, 3);
-    4 : imgTipoLancamento.Bitmap := ListaImagens.Bitmap(vSizeF, 4);
+    0 : imgTipoLancamento.Bitmap := ImgOutros.Bitmap;
+    1 : imgTipoLancamento.Bitmap := imgCombustivel.Bitmap;
+    2 : imgTipoLancamento.Bitmap := ImgMercado.Bitmap;
+    3 : imgTipoLancamento.Bitmap := ImgCompras.Bitmap;
+    4 : imgTipoLancamento.Bitmap := ImgFarmacia.Bitmap;
   end;
+
 end;
 
 end.
