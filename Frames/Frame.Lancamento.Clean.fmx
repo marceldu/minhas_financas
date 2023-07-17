@@ -1,0 +1,82 @@
+object FrameLancamentoClean: TFrameLancamentoClean
+  Align = Client
+  Size.Width = 300.000000000000000000
+  Size.Height = 60.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle4: TRectangle
+    Align = Client
+    Fill.Color = xFFE1E7FB
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Size.Width = 270.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 6.000000000000000000
+    YRadius = 6.000000000000000000
+    object lblTipoLancamento: TLabel
+      StyledSettings = [Family]
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 11.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 245.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claDarkblue
+      Text = 'Tipo de lan'#231'amento - 123456 7890123'
+      TabOrder = 3
+    end
+    object lblDataLancamento: TLabel
+      StyledSettings = [Family]
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 11.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 87.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = claDarkblue
+      Text = '00/00/0000'
+      TabOrder = 2
+    end
+    object Rectangle1: TRectangle
+      Anchors = [akTop, akRight]
+      Fill.Color = claDarkslateblue
+      Position.X = 161.000000000000000000
+      Position.Y = 23.000000000000000000
+      Size.Width = 98.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 6.000000000000000000
+      YRadius = 6.000000000000000000
+      object lblValorLancamento: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 78.000000000000000000
+        Size.Height = 12.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Trailing
+        Text = '0,00'
+        TabOrder = 2
+      end
+    end
+  end
+end

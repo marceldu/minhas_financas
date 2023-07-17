@@ -46,7 +46,7 @@ implementation
 
 {$R *.fmx}
 
-uses Frame.Lancamento;
+uses Frame.Lancamento, Frame.Lancamento.Clean;
 
 procedure TfrmPrincipal.FormShow(Sender: TObject);
 begin
@@ -60,25 +60,26 @@ begin
   AddLancamento(3, 'Combustivel','15/07/2023','22,00');
   AddLancamento(4, 'Farmacia','14/07/2023','41,30');
   AddLancamento(5, 'Outros','12/07/2023','7,30');
+  AddLancamento(1, 'Compras','10/07/2023','30,00');
 end;
 
 procedure TfrmPrincipal.AddLancamento(pIdLanc: integer; const pTipoLanc, pDataLanc, pValorLanc: string);
 var
   vItem: TListBoxItem;
-  vFrame: TFrameLancamento;
+  vFrame: TFrameLancamentoClean;
 begin
   vItem := TListBoxItem.Create(lbxLancamentos);
   vItem.Selectable := False;
   vItem.Text := '';
-  vItem.Height := 70;
+  vItem.Height := 60;
   vItem.Tag := pIdLanc;
 
   // Criar frame
-  vFrame := TFrameLancamento.Create(vItem);
+  vFrame := TFrameLancamentoClean.Create(vItem);
   vFrame.lblTipoLancamento.Text := pTipoLanc;
   vFrame.lblDataLancamento.Text := pDataLanc;
   vFrame.lblValorLancamento.Text := pValorLanc;
-  vFrame.CarregarImage(pTipoLanc);
+//  vFrame.CarregarImage(pTipoLanc);
 
   vItem.AddObject(vFrame);
 

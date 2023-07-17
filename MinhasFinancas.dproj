@@ -261,6 +261,11 @@
             <Form>frmPrincipal</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="Frames\Frame.Lancamento.Clean.pas">
+            <Form>FrameLancamentoClean</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <DCCReference Include="Frames\Frame.Lancamento.pas">
             <Form>FrameLancamento</Form>
             <FormType>fmx</FormType>
