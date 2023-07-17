@@ -14,6 +14,7 @@ type
     lblDataLancamento: TLabel;
     Rectangle1: TRectangle;
     lblValorLancamento: TLabel;
+    Image1: TImage;
   private
     { Private declarations }
   public

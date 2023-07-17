@@ -27,9 +27,13 @@ type
     Rectangle6: TRectangle;
     Label2: TLabel;
     cbxAnoRef: TComboBox;
-    lblPercConsumido: TLabel;
     lbxLancamentos: TListBox;
     Label3: TLabel;
+    Layout3: TLayout;
+    Image4: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Image5: TImage;
     procedure FormShow(Sender: TObject);
   private
     procedure CarregarUltimosLancamentos;
