@@ -31,6 +31,7 @@ procedure TFrameLancamento.CarregarImage(const pTipoLanc: string);
 var
   vSizeF: TSizeF;
 begin
+
   case AnsiIndexStr(UpperCase(pTipoLanc), ['OUTROS','COMBUSTIVEL','MERCADO','COMPRAS','FARMACIA']) of
     0 : imgTipoLancamento.Bitmap := ListaImagens.Bitmap(vSizeF, 0);
     1 : imgTipoLancamento.Bitmap := ListaImagens.Bitmap(vSizeF, 1);

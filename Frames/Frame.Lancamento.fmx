@@ -21,7 +21,7 @@ object FrameLancamento: TFrameLancamento
       Margins.Top = 5.000000000000000000
       Margins.Right = 10.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Position.X = 67.000000000000000000
+      Position.X = 68.000000000000000000
       Position.Y = 6.000000000000000000
       Size.Width = 209.000000000000000000
       Size.Height = 17.000000000000000000
