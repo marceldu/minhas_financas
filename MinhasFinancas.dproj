@@ -271,6 +271,9 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
+        <DCCReference Include="Units\uLoading.pas"/>
+        <DCCReference Include="Facade\untUserFacade.pas"/>
+        <DCCReference Include="Units\uSession.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
